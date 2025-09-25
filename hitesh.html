@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Shopping Site</title>
+<style>
+body { margin: 0; padding: 0; font-family: Arial; }
+header { background: blue; color: white; text-align: center; padding: 15px; }
+nav { background: orange; text-align: center; padding: 10px; }
+nav a { margin: 0 15px; color: black; text-decoration: none; font-weight: bold; }
+.buttons { text-align: center; background: skyblue; padding: 10px; }
+.buttons a { margin: 5px; padding: 8px 15px; font-weight: bold; background: white; border: 1px solid black; border-radius: 5px; text-decoration: none; color: black; }
+.products { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+.product { border: 1px solid #ddd; border-radius: 5px; margin: 10px; padding: 15px; width: 200px; text-align:center; }
+.product img { width: 100%; height: 150px; }
+.product h3 { font-size: 18px; }
+.product p { color: green; font-weight: bold; }
+</style>
+</head>
+<body>
+<header><h1>E-Commerce Store</h1></header>
+<nav>
+<a href="#">Home</a>
+<a href="#">Contact</a>
+<a href="#">Cart</a>
+</nav>
+<div class="buttons">
+<a href="#all">All</a>
+<a href="#mobile">Mobile</a>
+<a href="#tv">TV</a>
+<a href="#laptop">Laptop</a>
+</div>
+<div id="all" class="products">
+<div class="product"><img src="D:\samsung fe"><h3>Samsung s24fe</h3><p>₹34,999</p>
+<button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script>
+</div>
+<div class="product"><img src="D:\buds"><h3>Samsung Galaxy Buds</h3><p>₹4,999</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+<div class="product"><img src="D:\smart watch"><h3>Samsung Smart Watch</h3><p>₹33,999</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+<div class="product"><img src="D:\hp laptop"><h3>HP Laptop i5</h3><p>₹54,999</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+<div class="product"><img src="D:\smart tv"><h3>Samsung Smart TV</h3><p>₹28,499</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+</div>
+<div id="mobile" class="products">
+<div class="product"><img src="D:\samsung fe"><h3>Samsung s24fe</h3><p>₹34,999</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+<div class="product"><img src="D:\buds"><h3>Samsung Galaxy</h3><p>₹97,999</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+</div>
+<div id="tv" class="products">
+<div class="product"><img src="D:\smart tv"><h3>Samsung Smart TV</h3><p>₹28,499</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+<div class="product"><img src="D:\smart tv 1"><h3>Samsung Smart TV 43</h3><p>₹38,499</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+</div>
+<div id="laptop" class="products">
+<div class="product"><img src="D:\laptop i5"><h3>HP Laptop i5</h3><p>₹54,999</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+<div class="product"><img src="D:\laptop i7"><h3>HP Laptop i7</h3><p>₹74,999</p><button onclick="my function()">buy now</button>
+<script>
+function myfunction(){alert("buy now");
+}
+</script></div>
+</div>
+</body>
+</html>
